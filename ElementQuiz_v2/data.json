@@ -1,0 +1,128 @@
+
+[
+	{
+		"type" : "coverPage",
+		"H1": "Find your Element",
+		"H2": "INVESTOR QUESTIONNAIRE",
+		"H3": "This questionnaire is designed to help you choose the right investment to meet your needs by matching your unique situation with the profile of one of the five AGF Elements portfolios. Your tolerance for risk, your time horizon and your expected rate of return over the life of the investment all play a part in finding the right Elements portfolio for you."
+	},
+
+
+	{
+		"type" : "section",
+		"intro" : "Investment Objectives & Time Horizon Investment objectives are the goals or results you want to achieve through investing. Understanding your investment goals can help determine the types of investments best suited to meet your needs. One important factor to consider when selecting investments is the length of time you plan to have your money invested, your investment time horizon. Investors with a longer time horizon have a greater degree of flexibility when building a portfolio and may be able to take on more risk. If you have a very short time horizon, more conservative investments may be more suitable."
+	},
+
+
+	{
+		"type" : "question",
+		"question" : "1. Which of the following statement best describes your primary investment goal?",
+	 	"answers" : [
+	 		"I require steady income",
+	 		"I want to protect the money I am investing with some growth potential",
+	 		"I expect my money to grow over the long term"
+	 	],
+	 	"disclaimer" : "Please note that if your client has indicated they require income from their investments by answering 'l require steady income' to Question 1, a monthly distributing investment or purchase option such as AGF Elements Yield Portfolio or a Series T or V purchase option may be prudent for your client depending on their time horizon and risk tolerance.",
+	 	"img" : "\/\/na.intra.agf.com\/torfs$\/users\/yitianw\/Desktop\/element_quiz\/ElementQuiz_v2\/q1.png"
+	},
+
+
+	{
+		"type" : "question",
+		"question" : "2. Do you plan on using these investments to achieve short term financial objectives such as buying a home or paying for education? If so what portion do you plan on redeeming in the next 5 years?",
+		"answers" : [
+			"No,I'm investing for the long term",
+			"Up to 25%",
+			"about 50%",
+			"All of it, I expect to liquidate this investment in the near term or require this money for current income"
+		], 
+		"disclaimer" :"Please note that if your client has indicated they require income from their investments by answering 'All of it, I expect to liquidate this investment in the near term or require this money for current income' to Question 2, a monthly distributing investment or purchase option such as AGF Elements Yield Portfolio or a Series T or V purchase option may be prudent for your client depending on their time horizon and risk tolerance."
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "3. When do you expect to withdraw a significant portion, 1/3 or more, of the money in your investment portfolio?", 
+		"answers" : [
+	 		"More than 20 years",
+	 		"More than 10 years",
+	 		"Five to 10 years",
+	 		"Three to Five years",
+	 		"Less than two year"
+	 	], 
+	 	"disclaimer" : "Please note that if your client has indicated they intend to withdraw a substantial portion of their investment in the next two years by answering 'Less than two years' to Question 3, it may be beneficial to have further discussions with your client to determine if their investment time horizon is too short to benefit from investing in the AGF Elements Portfolios."
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "4. This investement account represents approximately what percentage of your total savings and investments?", 
+		"answers" : [
+	 		"Less than 25%",
+	 		"25-50%",
+	 		"51%-75%",
+	 		"More than 75%"
+	 	]
+	}, 
+
+
+	{
+		"type" : "section",
+		"intro" : "Your comfort level with risk is an important factor in determining how you should invest. Generally speaking, you need to consider accepting more risk if you want to pursue higher returns. If you decide to seek those pontentially higher returns, you face the possibility of greater losses."
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "5. Which of the following scenarios best describes how much risk you are willing to take on in order to meet your investment objectives?", 
+		"answers" : [
+	 		"I want my investments to be secure because I need steady monthly income.",
+	 		"I am a conservative investor with a low tolerance for losing money",
+	 		"I am willing to accept small loses(2%-5%) in order to make money over time",
+	 		"I can accept some larger losses(5% to 10% a year) as a trade-off for larger potential gains over the longer-term",
+	 		"I have a high tolerance for risk and a long term time horizon; I can accept losses abover 10% a year"
+	 	]
+	},
+
+
+	{
+		"type" : "question",
+		"question" : "6. From September 2008 through November 2008, North American Stock markets lost over 30%. If you owned an investment that lost over 30% in 3 months would you:", 
+		"answers" : [
+	 		"Sell all of the remaining to avoid further losses",
+	 		"Sell a portion of the remaining investment to protect some of your capital",
+	 		"Hold onto the investment and not sell any of the investment in the hopes of higher future returns",
+	 		"Buy more of the investment now that prices are lower"
+	 	]
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "7. When faced with a major financial decision, are you more concerned about the possible losses or possible gains?", 
+		"answers" : [
+	 		"always the possible losses",
+	 		"usually the possible losses",
+	 		"usually the possible gains",
+	 		"always the possible gains"
+	 	]
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "8. You have $100,000 to invest. The four scenarios below show hypothetically the greatest loo and highest gain you can experience in one year. Given the potential for gains or losses in any year, which investment would you feel comfortable puttig your money in?", 
+		"answers" : [
+	 		"Either a loss of $0.00 OR a gain of $2000",
+	 		"Either a loss of $2000 OR a gain of $5000",
+	 		"Either a loss of $8000 OR a gain of 12,000",
+	 		"Either a loss of $20,000 OR a gain of 25,000"
+	 	], 
+	 	"img" : "\/\/na.intra.agf.com\/torfs$\/users\/yitianw\/Desktop\/element_quiz\/ElementQuiz_v2\/q8.png"
+	},
+	{
+		"type" : "report"
+	}
+
+
+]
