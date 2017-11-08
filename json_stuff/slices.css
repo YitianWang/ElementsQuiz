@@ -1,0 +1,19 @@
+.legend {
+	width: 50%;
+	position: absolute;
+	top: 500px;
+	/*right: 150px;*/
+	color: @light;
+	font-family: arial;
+	font-size: @size + 2;
+}
+
+.legend ul li{
+	list-style:none;
+}
+
+.legend ul li  span{
+	width: 50px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 5px;
