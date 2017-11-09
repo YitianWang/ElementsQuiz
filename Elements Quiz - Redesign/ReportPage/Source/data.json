@@ -1,0 +1,35 @@
+{
+	"name": "AGF ELEMENTS CONSERVATIVE PORTFOLIO/CLASS HOLDINGS",
+	"date": "APRIL 24, 2017",
+	"benefits": ["a target asset mix of approximately 60% fixed income exposure offers stability, while the approximately 40% equity portion offers moderate capital appreciation", 
+				"the Portfolio is diversified by asset class, region and management style, with exposure to core holdings and specialty funds",
+				"the Portfolio is fine-tuned quarterly to ensure you are always positioned to capitalize on current market trends"],
+	"data": [{
+				"name": "DOMESTIC FIXED INCOME",
+				"percentage": 11,
+				"details": [{
+					"name": "AGF Fixed Income Plus Fund",
+					"percentage": 11
+				}]
+			},
+			{
+				"name": "FOREIGN FIXED INCOME",
+				"percentage": 44,
+				"details": [{
+					"name": "AGF Global Bond Fund",
+					"percentage": 27
+				},
+				{
+					"name": "AGF Total Return Bond Fund",
+					"percentage": 9
+				},
+				{
+					"name": "AGF Emerging Markets Bond Fund",
+					"percentage": 4
+				},
+				{
+					"name": "AGF High Yield Bond Fund&sup1;",
+					"percentage": 4
+				}]
+			}]
+}

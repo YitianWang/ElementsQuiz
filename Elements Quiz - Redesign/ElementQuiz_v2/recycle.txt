@@ -1,0 +1,23 @@
+            /*// add inputs to form 
+            var answerElement = document.createElement("input");
+            answerElement.setAttribute("type", "radio");
+            answerElement.setAttribute("name", name);
+            answerElement.value = "answer" + j;
+			
+
+			var newAnswer = document.getElementById("#"+ i + " form");
+			var newAnswer = $("#"+ i + " form").
+			newAnswer.appendChild(answerElement);
+			
+
+			// add label to each "answer"
+			var labelElement = document.createElement("label");
+			var label = document.createTextNode(json[i - 1].answers[j - 1]);
+			labelElement.appendChild(label);
+			labelElement.val(j);
+
+
+			var newAnswer = document.getElementById("answer" + j); // add label to each answer
+			answerElement.appendChild(labelElement);
+			// labelElement.html(json[i - 1].answers[j - 1]); // add content to each "label" of each input
+*/

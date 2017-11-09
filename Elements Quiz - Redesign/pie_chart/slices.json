@@ -1,0 +1,29 @@
+{
+	"slices": [
+		{
+			"label": "Domestic Equities",
+			"value": 22,
+			"colour": "#ab6976"
+		},
+		{
+			"label": "Foreign Equities",
+			"value": 34,
+			"colour": "#eddfce"
+		},
+		{
+			"label": "Domestic Fixed Income",
+			"value": 7,
+			"colour": "#e6d7f2"
+		},
+		{
+			"label": "Foreign Fixed Income",
+			"value": 27,
+			"colour": "#ffc0cb"
+		},
+		{
+			"label": "Tactical",
+			"value": 10,
+			"colour": "#d08cb3"
+		}
+	]
+}

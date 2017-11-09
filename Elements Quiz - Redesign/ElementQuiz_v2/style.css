@@ -1,0 +1,103 @@
+body, #frame {
+    margin: 0; 
+    width: 745px;
+    height: 500px;
+    border: 0.1px solid #203232;
+}
+
+h1 {
+	color: #ED5A36;
+	font-family: arial;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 27.5px;
+	padding-top: 45px;
+}
+
+p {
+	color: #203232;
+	font-family: arial;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 16px;
+}
+
+h3{
+    color: #2c7bb7; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#main-content{
+    width: 745px; 
+    height: 416px; 
+    overflow: hidden;
+}
+
+#all-slides {
+    display: block; 
+    /*width: 8940px;  // 12 slides (12*745)*/
+    height: 416px;
+    margin: 0; 
+    padding: 0;
+}
+
+li:not(.ProgressBar-step) { 
+	float: left; 
+    list-style-type: none; 
+    width: 622px; 
+    height: 416px; 
+    margin-top: 0;
+    padding-left: 42px; 
+    padding-right: 81px;
+    z-index: 99;
+}
+
+label {
+  display: block;
+}
+
+.disclaimer{
+    font-size: 10px;
+}
+
+#slide1 h3{
+    font-size:13px;
+
+}
+
+.previous, .next {
+    background-color: #203232;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.bt{
+    color: #ffffff;
+    background-color: #f5cf68;
+}
+
+.banner{ /* AGF logo */
+    margin: 0;
+	width: 241px;
+	left: 0px;
+	top: 7px;
+}
+
+#header { /* entire header section*/
+	width: 744px;
+	height: 87.5px;
+	left: 0px;
+	top: 0px;
+	background: #E3E6E6;
+	border-right: 1px black solid;
+}
