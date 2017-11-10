@@ -1,0 +1,45 @@
+[
+	{
+		"type" : "benefits",
+		"content": ["a target asset mix of approximately fixed income exposure offers stability, while the approximately 40% equity portion offers moderate capital appreciation", 
+				"the Portfolio is diversified by asset class, region and management style, with exposure to core holdings and specialty funds",
+				"the Portfolio is fine-tuned quarterly to ensure you are always positioned to capitalize on current market trends"]
+		
+	},
+	{
+		"type": "fundCatagory",
+		"fundName": "DOMESTIC FIXED INCOME",
+		"fundPercentage": 11
+	},
+	{
+		"type": "fund",
+		"fundName": "AGF Fixed Income Plus Fund",
+		"fundPercentage": 11
+	},
+	{
+		"type": "fundCatagory",
+		"fundName": "FOREIGN FIXED INCOME",
+		"fundPercentage": 44
+	},
+	{
+		"type": "fund",
+		"fundName": "AGF Global Bond Fund",
+		"fundPercentage": 27
+	},
+	{
+		"type": "fund",
+		"fundName": "AGF Total Return Bond Fund",
+		"fundPercentage": 9
+	},
+	{
+		"type": "fund",
+		"fundName": "AGF Emerging Markets Bond Fund",
+		"fundPercentage": 4
+	},
+	{
+		"type": "fund",
+		"fundName": "AGF High Yield Bond Fund&sup1;",
+		"fundPercentage": 4
+	},
+
+]
