@@ -1,0 +1,39 @@
+.legend {
+	/*width: 50%;*/
+	position: right;
+	/*top: 500px;*/
+	/*right: 500px;*/
+	/*font-color: #000000;*/
+	font-family: Segoe UI;
+	font-weight: normal;
+	font-size: @size + 2;
+}
+
+.legend ul li {
+	list-style:none;
+}
+
+.legend ul li  span {
+	width: 50px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.fundBox {
+	/*width: 100vh;*/
+	height: 30%;
+	width: 50%;
+	position: fixed;
+	bottom: 0;
+	right: 0%;
+	border: 5px;
+	/*background: #333;*/
+}
+
+#funds {
+	color: #333;
+	font-family: verdana;
+	font-size: 32px;
+	text-align: center;
+}
