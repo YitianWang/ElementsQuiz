@@ -1,9 +1,10 @@
 
 [
-	{
+	{	
 		"type" : "coverPage",
-		"H1": "Find your Element - Investor Questionnaire",
-		"H3": "This questionnaire is designed to help you choose the right investment to meet your needs by matching your unique situation with the profile of one of the five AGF Elements portfolios. Your tolerance for risk, your time horizon and your expected rate of return over the life of the investment all play a part in finding the right Elements portfolio for you."
+		"H1" : "Find your Element",
+		"H2" : "INVESTOR QUESTIONNAIRE",
+		"H3" : "This questionnaire is designed to help you choose the right investment to meet your needs by matching your unique situation with the profile of one of the five AGF Elements portfolios. Your tolerance for risk, your time horizon and your expected rate of return over the life of the investment all play a part in finding the right Elements portfolio for you."
 	},
 
 
@@ -13,7 +14,7 @@
 	},
 
 
-	{
+	{	
 		"type" : "question",
 		"question" : "1. Which of the following statement best describes your primary investment goal?",
 	 	"answers" : [
@@ -21,8 +22,8 @@
 	 		"I want to protect the money I am investing with some growth potential",
 	 		"I expect my money to grow over the long term"
 	 	],
-	 	"disclaimer" : "Please note that if your client has indicated they require income from their investments by answering 'l require steady income' to Question 1, a monthly distributing investment or purchase option such as AGF Elements Yield Portfolio or a Series T or V purchase option may be prudent for your client depending on their time horizon and risk tolerance.",
-	 	"img" : "\/\/na.intra.agf.com\/torfs$\/users\/yitianw\/Desktop\/element_quiz\/ElementQuiz_v2\/q1.png"
+	 	"disclaimer" : "Please note that if your client has indicated they require income from their investments by answering 'l require steady income' to Question 1, a monthly distributing investment or purchase option such as AGF Elements Yield Portfolio or a Series T or V purchase option may be prudent for your client depending on their time horizon and risk tolerance.", 
+	 	"img" : "p1.png"
 	},
 
 
@@ -34,8 +35,8 @@
 			"Up to 25%",
 			"about 50%",
 			"All of it, I expect to liquidate this investment in the near term or require this money for current income"
-		], 
-		"disclaimer" :"Please note that if your client has indicated they require income from their investments by answering 'All of it, I expect to liquidate this investment in the near term or require this money for current income' to Question 2, a monthly distributing investment or purchase option such as AGF Elements Yield Portfolio or a Series T or V purchase option may be prudent for your client depending on their time horizon and risk tolerance."
+		],
+		"disclaimer" : "Please note that if your client has indicated they require income from their investments by answering 'All of it, I expect to liquidate this investment in the near term or require this money for current income' to Question 2, a monthly distributing investment or purchase option such as AGF Elements Yield Portfolio or a Series T or V purchase option may be prudent for your client depending on their time horizon and risk tolerance."
 	}, 
 
 
@@ -48,7 +49,7 @@
 	 		"Five to 10 years",
 	 		"Three to Five years",
 	 		"Less than two year"
-	 	], 
+	 	],
 	 	"disclaimer" : "Please note that if your client has indicated they intend to withdraw a substantial portion of their investment in the next two years by answering 'Less than two years' to Question 3, it may be beneficial to have further discussions with your client to determine if their investment time horizon is too short to benefit from investing in the AGF Elements Portfolios."
 	}, 
 
@@ -61,13 +62,14 @@
 	 		"25-50%",
 	 		"51%-75%",
 	 		"More than 75%"
-	 	]
+	 	], 
+	 	"disclaimer" : ""
 	}, 
 
 
 	{
 		"type" : "section",
-		"intro" : "Your comfort level with risk is an important factor in determining how you should invest. Generally speaking, you need to consider accepting more risk if you want to pursue higher returns. If you decide to seek those pontentially higher returns, you face the possibility of greater losses."
+		"intro" : "Your comfort level with risk is an important factor in determining how you should invest. Generally speaking, you need to consider accepting more risk if you want to pursue higher returns. If you decide to seek those pontentially higher returns, you face the possibility of greater losses.", 
 	}, 
 
 
@@ -80,7 +82,8 @@
 	 		"I am willing to accept small loses(2%-5%) in order to make money over time",
 	 		"I can accept some larger losses(5% to 10% a year) as a trade-off for larger potential gains over the longer-term",
 	 		"I have a high tolerance for risk and a long term time horizon; I can accept losses abover 10% a year"
-	 	]
+	 	], 
+	 	"disclaimer" : ""
 	},
 
 
@@ -92,7 +95,8 @@
 	 		"Sell a portion of the remaining investment to protect some of your capital",
 	 		"Hold onto the investment and not sell any of the investment in the hopes of higher future returns",
 	 		"Buy more of the investment now that prices are lower"
-	 	]
+	 	],
+	 	"disclaimer" : ""
 	}, 
 
 
@@ -104,7 +108,8 @@
 	 		"usually the possible losses",
 	 		"usually the possible gains",
 	 		"always the possible gains"
-	 	]
+	 	], 
+	 	"disclaimer" : ""
 	}, 
 
 
@@ -117,11 +122,7 @@
 	 		"Either a loss of $8000 OR a gain of 12,000",
 	 		"Either a loss of $20,000 OR a gain of 25,000"
 	 	], 
-	 	"img" : "\/\/na.intra.agf.com\/torfs$\/users\/yitianw\/Desktop\/element_quiz\/ElementQuiz_v2\/q8.png"
-	},
-	{
-		"type" : "report"
-	}
-
+	 	"disclaimer" : ""
+	} 
 
 ]

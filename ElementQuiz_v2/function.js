@@ -1,4 +1,4 @@
- $.getJSON("data.json", function(json) {
+$.getJSON("data.json", function(json) {
 
  	 var numOfQuestions = json.length; // get the amount of questions 
 
@@ -143,7 +143,6 @@
 	testButton.appendChild(document.createTextNode("test butoon"));
 	footer.appendChild(testButton);
 	testButton.className = "testButton";
-
 	var testButton = document.createElement("button");
 	testButton.appendChild(document.createTextNode("test butoon"));
 	footer.appendChild(testButton);
@@ -220,4 +219,3 @@
 
 
  });
-

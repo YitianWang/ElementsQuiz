@@ -2,20 +2,32 @@ body, #frame {
     margin: 0; 
     width: 745px;
     height: 500px;
-    border: 1px solid #eeb310; 
+    border: 0.1px solid #203232;
+}
+
+h1 {
+	color: #ED5A36;
+	font-family: arial;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 27.5px;
+	padding-top: 45px;
+}
+
+p {
+	color: #203232;
+	font-family: arial;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 16px;
 }
 
 h3{
     color: #2c7bb7; 
     font-family: Arial, Helvetica, sans-serif; 
 }
-
-.banner{
-    width: 745px; 
-    height:81px; 
-    margin: 0
-}
-
 
 #main-content{
     width: 745px; 
@@ -30,17 +42,17 @@ h3{
     margin: 0; 
     padding: 0;
 }
-li {
+
+li:not(.ProgressBar-step) { 
 	float: left; 
     list-style-type: none; 
-    width: 590px; 
+    width: 622px; 
     height: 416px; 
     margin-top: 0;
-    padding-left: 100px; 
-    padding-right: 55px;
+    padding-left: 42px; 
+    padding-right: 81px;
     z-index: 99;
 }
-
 
 label {
   display: block;
@@ -50,43 +62,44 @@ label {
     font-size: 10px;
 }
 
-
-.footer{
-    height: 50px;
-    width: 695px;
-    background-color: #eeb310;
-    margin-top: -70px;
-    padding-right: 50px;
-    text-align: right;
-    color: white;
-    z-index: 9; 
-    position: relative;
-}
-
 #slide1 h3{
     font-size:13px;
 
 }
 
-/*button.bt:disabled,
-button.bt[disabled]{
-    color: #efb310;
-    background-color: #efb310;
+.previous, .next {
+    background-color: #203232;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    top: 80px;
 }
-*/
+
 .bt{
     color: #ffffff;
     background-color: #f5cf68;
 }
 
-#footer{
-    height: 50px;
-    width: 695px;
-    background-color: #eeb310;
-    margin-top: -70px;
-    padding-right: 50px;
-    text-align: right;
-    color: white;
-    z-index: 9; 
-    position: relative;
+.banner{ /* AGF logo */
+    margin: 0;
+	width: 241px;
+	left: 0px;
+	top: 7px;
+}
+
+#header { /* entire header section*/
+	width: 744px;
+	height: 87.5px;
+	left: 0px;
+	top: 0px;
+	background: #E3E6E6;
+	border-right: 1px black solid;
 }
