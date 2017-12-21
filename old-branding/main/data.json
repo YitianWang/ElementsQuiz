@@ -1,0 +1,483 @@
+
+[
+	{
+		"type" : "coverPage",
+		"title": "Find your Element - INVESTOR QUESTIONNAIRE",
+		"intro": "This questionnaire is designed to help you choose the right investment to meet your needs by matching your unique situation with the profile of one of the five AGF Elements portfolios. Your tolerance for risk, your time horizon and your expected rate of return over the life of the investment all play a part in finding the right Elements portfolio for you.",
+		"dropDown" : [
+			{"name" : "Jump directly to a portfolio profile", "value" : ""},
+			{"name" : "AGF Elements Yield Portfolio", "value" : "yield"},
+			{"name" : "AGF Elements Conservative Portfolio", "value" : "conservative"},
+			{"name" : "AGF Elements Balanced Portfolio", "value" : "balanced"},
+			{"name" : "AGF Elements Growth Portfolio", "value" : "growth"}, 
+			{"name" : "AGF Elements Global Portfolio", "value" : "global"}
+		]
+	}, 
+
+
+	{
+		"type" : "section",
+		"title" : "Investment Objectives & Time Horizon",
+		"intro" : "Investment objectives are the goals or results you want to achieve through investing. Understanding your investment goals can help determine the types of investments best suited to meet your needs. One important factor to consider when selecting investments is the length of time you plan to have your money invested, your investment time horizon. Investors with a longer time horizon have a greater degree of flexibility when building a portfolio and may be able to take on more risk. If you have a very short time horizon, more conservative investments may be more suitable."
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "1. Which of the following statement best describes your primary investment goal?",
+	 	"answers" : [
+	 		{"text" : "I require steady income", "value" : "0"},
+	 		{"text" : "I want to protect the money I am investing with some growth potential", "value" : "4"},
+	 		{"text" : "I expect my money to grow over the long term", "value" : "8"}
+	 	],
+	 	"disclaimer" : "Please note that if your client has indicated they require income from their investments by answering 'l require steady income' to Question 1, a monthly distributing investment or purchase option such as AGF Elements Yield Portfolio or a Series T or V purchase option may be prudent for your client depending on their time horizon and risk tolerance.",
+	 	"img" : ".\/q1.png"
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "2. Do you plan on using these investments to achieve short term financial objectives such as buying a home or paying for education? If so what portion do you plan on redeeming in the next 5 years?",
+		"answers" : [
+			{"text" : "No,I'm investing for the long term", "value" : "8"},
+			{"text" : "Up to 25%", "value" : "6"},
+			{"text" : "about 50%", "value" : "4"},
+			{"text" : "All of it, I expect to liquidate this investment in the near term or require this money for current income", "value" : "2"}
+		], 
+		"disclaimer" :"Please note that if your client has indicated they require income from their investments by answering 'All of it, I expect to liquidate this investment in the near term or require this money for current income' to Question 2, a monthly distributing investment or purchase option such as AGF Elements Yield Portfolio or a Series T or V purchase option may be prudent for your client depending on their time horizon and risk tolerance."
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "3. When do you expect to withdraw a significant portion, 1/3 or more, of the money in your investment portfolio?", 
+		"answers" : [
+	 		{"text" : "More than 20 years", "value" : "8"},
+	 		{"text" : "More than 10 years", "value" : "6"},
+	 		{"text" : "Five to 10 years", "value" : "4"},
+	 		{"text" : "Three to Five years", "value" : "2"},
+	 		{"text" : "Less than two year", "value" : "0"}
+	 	], 
+	 	"disclaimer" : "Please note that if your client has indicated they intend to withdraw a substantial portion of their investment in the next two years by answering 'Less than two years' to Question 3, it may be beneficial to have further discussions with your client to determine if their investment time horizon is too short to benefit from investing in the AGF Elements Portfolios."
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "4. This investement account represents approximately what percentage of your total savings and investments?", 
+		"answers" : [
+	 		{"text" : "Less than 25%", "value" : "8"},
+	 		{"text" : "25-50%", "value" : "6"},
+	 		{"text" : "51%-75%", "value" : "4"},
+	 		{"text" : "More than 75%", "value" : "2"}
+	 	]
+	}, 
+
+
+	{
+		"type" : "section",
+		"title" : "Risk Tolerance",
+		"intro" : "Your comfort level with risk is an important factor in determining how you should invest. Generally speaking, you need to consider accepting more risk if you want to pursue higher returns. If you decide to seek those pontentially higher returns, you face the possibility of greater losses."
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "5. Which of the following scenarios best describes how much risk you are willing to take on in order to meet your investment objectives?", 
+		"answers" : [
+	 		{"text" : "I want my investments to be secure because I need steady monthly income.", "value": "0"},
+	 		{"text" : "I am a conservative investor with a low tolerance for losing money", "value": "2"},
+	 		{"text" : "I am willing to accept small loses(2%-5%) in order to make money over time", "value": "4"},
+	 		{"text" : "I can accept some larger losses(5% to 10% a year) as a trade-off for larger potential gains over the longer-term", "value": "6"},
+	 		{"text" : "I have a high tolerance for risk and a long term time horizon; I can accept losses abover 10% a year", "value": "8"}
+	 	]
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "6. From September 2008 through November 2008, North American Stock markets lost over 30%. If you owned an investment that lost over 30% in 3 months would you:", 
+		"answers" : [
+	 		{"text" : "Sell all of the remaining to avoid further losses", "value": "2"},
+	 		{"text" : "Sell a portion of the remaining investment to protect some of your capital", "value": "4"},
+	 		{"text" : "Hold onto the investment and not sell any of the investment in the hopes of higher future returns", "value": "6"},
+	 		{"text" : "Buy more of the investment now that prices are lower", "value": "8"}
+	 	]
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "7. When faced with a major financial decision, are you more concerned about the possible losses or possible gains?", 
+		"answers" : [
+	 		{"text" : "always the possible losses", "value": "0"},
+	 		{"text" : "usually the possible losses", "value": "2"},
+	 		{"text" : "usually the possible gains", "value": "4"},
+	 		{"text" : "always the possible gains", "value": "6"}
+	 	]
+	}, 
+
+
+	{
+		"type" : "question",
+		"question" : "8. You have $100,000 to invest. The four scenarios below show hypothetically the greatest loo and highest gain you can experience in one year. Given the potential for gains or losses in any year, which investment would you feel comfortable puttig your money in?", 
+		"answers" : [
+	 		{"text" : "Either a loss of $0.00 OR a gain of $2000", "value": "0"},
+	 		{"text" : "Either a loss of $2000 OR a gain of $5000", "value": "4"},
+	 		{"text" : "Either a loss of $8000 OR a gain of 12,000", "value": "8"},
+	 		{"text" : "Either a loss of $20,000 OR a gain of 25,000", "value": "10"}
+	 	], 
+	 	"img" : ".\/q8.png"
+	}, 
+
+
+	{
+		"type" : "results",
+
+		"yield" : 
+			{
+				"title" : "Investor Profile Recommendation: AGF Elements Yield Portfolio", 
+				"left_column" : 
+					{
+						"intro" : "Investment Objective - The Portfolio's objective is to achieve high current income by investing primarily in a diversified mix of income, bond and equity funds that may include exposure to income trusts, royalty trusts and REITs. The portfolio currently offers a 5% annual targeted distribution, paid monthly."
+					}, 
+				"right_column" : 
+					{
+						"subtitle" : "Targeted Asset Location",
+						"pieChart": [
+							{
+								"label": "Domestic equities",
+								"value": 13,
+								"colour": "#7C4496",
+								"funds": [
+									"13% AGF Dividend Income Fund"
+								]
+							},
+							{
+								"label": "Foreign equities",
+								"value": 15,
+								"colour": "#D02259",
+								"funds": [
+									"15% AGF Global Dividend Fund"
+								]
+							},
+							{
+								"label": "Domestic fixed income",
+								"value": 16,
+								"colour": "#ED5A36",
+								"funds": [
+									"16% AGF Fixed Income Plus Fund"
+								]
+							},
+							{
+								"label": "Foreign fixed income",
+								"value": 56,
+								"colour": "#F47E20",
+								"funds": [
+									"21% AGF Total Return Bond Fund", 
+									"23% AGF Global Bond Fund",
+									"6% AGF High Yield Bond Fund",
+									"6% AGF Emerging Markets Bond Fund"
+								]
+							}
+						]
+
+					}
+			}, 
+
+			"conservative" : 
+			{
+				"title" : "Investor Profile Recommendation: AGF Elements Conservative Portfolio", 
+				"left_column" : 
+					{
+						"intro" : "Investment Objective - The Portfolio's objective is to provide long-term returns with lower risk by investing primarily in a diversified mix of income, bond, money market and equity mutual funds.",
+						"subtitle" : "Investment Objective",
+						"intro" : "The Portfolio's objective is to provide long-term returns with lower risk by investing primarily in a diversified mix of income, bond, money market and equity mutual funds."
+					}, 
+				"right_column" : 
+					{
+						"subtitle" : "Targeted Asset Location",
+						"pieChart": [
+							{
+								"label": "Domestic equities",
+								"value": 13,
+								"colour": "#7C4496",
+								"funds": [
+									"5% AGF Canadian Stock Fund",
+									"6% AGF Dividend Income Fund",
+									"1% AGF Canadian Small Cap Fund",
+									"1% QuantShares Enhanced Core Canadian Equity ETF"
+								]
+							},
+							{
+								"label": "Foreign equities",
+								"value": 24,
+								"colour": "#D02259",
+								"funds": [
+									"8% AGF Global Equity Fund",
+									"5% AGF Global Dividend Fund",
+									"1% AGF U.S. Risked Managed Fund",
+									"4% AGF American Growth Fund",
+									"1% AGF EAFE Equity Fund",
+									"1% AGF Emerging Markets Fund",
+									"2% AGF Global Resources Class/Fund",
+									"1% QuantShares Enhanced Core U.S. Equity ETF",
+									"1% QuantShares Enhanced Core International Equity ETF"
+								]
+							},
+							{
+								"label": "Domestic fixed income",
+								"value": 11,
+								"colour": "#ED5A36",
+								"funds": [
+									"11% AGF Fixed Income Plus Fund"
+								]
+							},
+							{
+								"label": "Foreign fixed income",
+								"value": 44,
+								"colour": "#F47E20",
+								"funds": [
+									"27% AGF Global Bond Fund",
+									"9% AGF Total Return Bond Fund",
+									"4% AGF Emerging Markets Bond Fund",
+									"4% AGF High Yield Bond Fund"
+								]
+							},
+							{
+								"label": "Tactical",
+								"value": 8,
+								"colour": "#FFB819",
+								"funds": [
+									"8% AGF Tactical Fund"
+								]
+							}
+
+						]
+
+					}
+			}, 
+
+
+			"balanced" : 
+			{
+				"title" : "Investor Profile Recommendation: AGF Elements Balanced Portfolio", 
+				"left_column" : 
+					{
+						"intro" : "Investment Objective - The Portfolio's objective is to provide high long-term returns by investing primarily in a diversified mix of equity, income and bond mutual funds",
+						"subtitle" : "Investment Objective",
+						"intro" : "The Portfolio's objective is to provide high long-term returns by investing primarily in a diversified mix of equity, income and bond mutual funds."
+					}, 
+				"right_column" : 
+					{
+						"subtitle" : "Targeted Asset Location",
+						"pieChart": [
+							{
+								"label": "Domestic equities",
+								"value": 22,
+								"colour": "#7C4496",
+								"funds": [
+									"8% AGF Canadian Stock Fund",
+									"10% AGF Dividend Income Fund",
+									"2% AGF Canadian Small Cap Fund",
+									"2% QuantShares Enhanced Core Canadian Equity"
+								]
+							},
+							{
+								"label": "Foreign equities",
+								"value": 34,
+								"colour": "#D02259",
+								"funds": [
+									"12% AGF Global Equity Fund",
+									"4% AGF American Growth Fund",
+									"2% AGF U.S. Risked Managed Fund",
+									"5% AGF Global Dividend Fund",
+									"2% AGF EAFE Equity Fund",
+									"2% AGF European Equity Fund",
+									"2% AGF Emerging Markets Fund",
+									"2% AGF Global Resources Class/Fund",
+									"1% AGF Asian Growth Class/Fund",
+									"1% QuantShares Enhanced Core U.S. Equity ETF",
+									"1% QuantShares Enhanced Core International Equity ETF"
+								]
+							},
+							{
+								"label": "Domestic fixed income",
+								"value": 7,
+								"colour": "#ED5A36",
+								"funds": [
+									"7% AGF Fixed Income Plus Fund"
+								]
+							},
+							{
+								"label": "Foreign fixed income",
+								"value": 27,
+								"colour": "#F47E20",
+								"funds": [
+									"17% AGF Global Bond Fund",
+									"5% AGF Total Return Bond Fund",
+									"3% AGF High Yield Bond Fund",
+									"2% AGF Emerging Markets Bond Fund"
+								]
+							},
+							{
+								"label": "Tactical",
+								"value": 10,
+								"colour": "#FFB819",
+								"funds": [
+									"10% AGF Tactical Fund"
+								]
+							}
+
+						]
+
+					}
+			}, 
+
+
+			"growth" : 
+			{
+				"title" : "Investor Profile Recommendation: AGF Elements Growth Portfolio", 
+				"left_column" : 
+					{
+						"intro" : "Investment Objective - The Portfolio's objective is to provide superior long-term returns by investing primarily in equity mutual funds diversified with income and/or bond mutual fund holdings.",
+						"subtitle" : "Investment Objective",
+						"intro" : "The Portfolio's objective is to provide superior long-term returns by investing primarily in equity mutual funds diversified with income and/or bond mutual fund holdings."
+					}, 
+				"right_column" : 
+					{
+						"subtitle" : "Targeted Asset Location",
+						"pieChart": [
+							{
+								"label": "Domestic equities",
+								"value": 12,
+								"colour": "#7C4496",
+								"funds": [
+									"4% AGF Canadian Stock Fund",
+									"5% AGF Dividend Income Fund",
+									"2% AGF Canadian Small Cap Fund",
+									"1% QuantShares Enhanced Core Canadian Equity"
+								]
+							},
+							{
+								"label": "Foreign equities",
+								"value": 57,
+								"colour": "#D02259",
+								"funds": [
+									"15% AGF Global Equity Fund",
+									"11% AGF American Growth Fund",
+									"6% AGF U.S. Risked Managed Fund",
+									"8% AGF Global Dividend Fund",
+									"4% AGF European Equity Fund",
+									"2% AGF EAFE Equity Fund",
+									"2% AGF Emerging Markets Fund",
+									"2% AGF Asian Growth Class/Fund",
+									"3% AGF Global Resources Class/Fund",
+									"1% QuantShares Enhanced Core U.S. Equity ETF",
+									"1% QuantShares Enhanced Core International Equity ETF"
+								]
+							},
+							{
+								"label": "Domestic fixed income",
+								"value": 3,
+								"colour": "#ED5A36",
+								"funds": [
+									"3% AGF Fixed Income Plus Fund"
+								]
+							},
+							{
+								"label": "Foreign fixed income",
+								"value": 13,
+								"colour": "#F47E20",
+								"funds": [
+									"6% AGF Global Bond Fund",
+									"3% AGF Total Return Bond Fund",
+									"2% AGF Emerging Markets Bond Fund",
+									"2% AGF High Yield Bond Fund"
+								]
+							},
+							{
+								"label": "Tactical",
+								"value": 15,
+								"colour": "#FFB819",
+								"funds": [
+									"15% AGF Tactical Fund"
+								]
+							}
+
+						]
+
+					}
+			}, 
+
+
+			"global" : 
+			{
+				"title" : "Investor Profile Recommendation: AGF Elements Global Portfolio", 
+				"left_column" : 
+					{
+						"intro" : "Investment Objective - The Portfolio's objective is to provide superior long-term returns by investing in equity mutual funds from around the globe.",
+						"subtitle" : "Investment Objective",
+						"intro" : "The Portfolio's objective is to provide superior long-term returns by investing in equity mutual funds from around the globe."
+					}, 
+				"right_column" : 
+					{
+						"subtitle" : "Targeted Asset Location",
+						"pieChart": [
+							{
+								"label": "Domestic equities",
+								"value": 4,
+								"colour": "#7C4496",
+								"funds": [
+									"2% AGF Canadian Stock Fund",
+									"2% AGF Canadian Small Cap Fund"
+								]
+							},
+							{
+								"label": "Foreign equities",
+								"value": 78,
+								"colour": "#D02259",
+								"funds": [
+									"24% AGF Global Equity Fund",
+									"15% AGF American Growth Fund",
+									"8% AGF U.S. Risked Managed Fund",
+									"10% AGF Global Dividend Fund",
+									"4% AGF European Equity Fund",
+									"3% AGF EAFE Equity Fund",
+									"3% AGF Global Resources Class/Fund",
+									"2% AGF Asian Growth Class/Fund",
+									"3% AGF Emerging Markets Fund",
+									"3% QuantShares Enhanced Core U.S. Equity ETF",
+									"2% QuantShares Enhanced Core International Equity ETF",
+									"1% QuantShares Enhanced Core Emerging Markets Equity ETF"
+								]
+							},
+							{
+								"label": "Tactical",
+								"value": 18,
+								"colour": "#FFB819",
+								"funds": [
+									"18% AGF Tactical Fund"
+								]
+							}
+
+						]
+
+					}
+			}, 
+		"dropDown" : [
+			{"name" : "Jump directly to a portfolio profile", "value" : ""},
+			{"name" : "AGF Elements Yield Portfolio", "value" : "yield"},
+			{"name" : "AGF Elements Conservative Portfolio", "value" : "conservative"},
+			{"name" : "AGF Elements Balanced Portfolio", "value" : "balanced"},
+			{"name" : "AGF Elements Growth Portfolio", "value" : "growth"}, 
+			{"name" : "AGF Elements Global Portfolio", "value" : "global"}
+		]
+
+
+	}
+
+
+
+
+]

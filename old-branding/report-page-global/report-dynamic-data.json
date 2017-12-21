@@ -1,0 +1,206 @@
+{	
+	"reportProfolioTitle": "AGF ELEMENTS GLOBAL PORTFOLIO/CLASS HOLDINGS",
+	"benefits": ["a globally diverse mix of equity funds offers maximum long-term capital appreciation", 
+				"the Portfolio is diversified by asset class, region and management style, with exposure to core holdings and specialty funds",
+				"the Portfolio is fine-tuned quarterly to ensure you are always positioned to capitalize on current market trends"],
+	"date": "APRIL 24, 2017",
+	"fundsChart" : [
+					{
+						"type" : "DOMESTIC EQUITIES",
+						"percentage" : 4,
+						"colour": "#7C4496",
+						"subType" : [
+										{
+											"name": "AGF Canadian Stock Fund",
+											"percentage": 2
+										},
+										{
+											"name": "AGF Canadian Small Cap Fund",
+											"percentage": 2
+										}]
+					},
+					{
+						"type" : "FOREIGN EQUITIES",
+						"percentage" : 78,
+						"colour": "#D02259",
+						"subType" : [{
+											"name": "AGF Global Equity Fund",
+											"superscript": 1,
+											"percentage": 24
+										},
+										{
+											"name": "AGF American Growth Fund",
+											"percentage": 15
+										},
+
+										{
+											"name": "AGF Global Dividend Fund",
+											"percentage": 10
+										},
+										{
+											"name": "AGF U.S. Risk Managed Fund",
+											"percentage": 8
+										},
+										{
+											"name": "AGF European Equity Fund",
+											"percentage": 4
+										},
+										{
+											"name": "AGF EAFE Equity Fund",
+											"percentage": 3
+										},
+										{
+											"name": "AGF Emerging Markets Fund",
+											"percentage": 3
+										},
+										{
+											"name": "AGF Global Resources Class/Fund",
+											"percentage": 3
+										},
+										{
+											"name": "QuantShares Enhanced Core U.S. Equity ETF",
+											"superscript": 2,
+											"percentage": 3
+										},
+
+										{
+											"name": "AGF Asian Growth Class",
+											"percentage": 2
+										},
+										{
+											"name": "QuantShares Enhanced Core International ETF",
+											"superscript": 2,
+											"percentage": 2
+										},
+										{
+											"name": "QuantShares Enhanced Core Emerging Markets ETF",
+											"superscript": 2,
+											"percentage": 1
+										}]
+					},
+					{
+						"type" : "TACTICAL",
+						"percentage" : 18,
+						"colour": "#FFB819",
+						"subType" : [{
+											"name": "AGF Tactical Fund",
+											"percentage": 18
+									    }]
+					}],
+	"footNote" : [ "On April 18, 2008, the Fund changed its investment objective to provide long-term capital growth and invest primarily in shares of companies around the world. The Fund may invest up to 25% of its assets in companies in emerging markets.",
+					"QuantShares are ETFs offered by AGF Investments Inc. and managed by Highstreet Asset Management. QuantShares ETFs are listed on the Toronto Stock Exchange and may only be bought and sold through licensed dealers."],
+	"equityChart": [
+					{
+						"type" : "EQUITY",
+						"percentage" : 89.6,
+						"colour": "#ED5A36",
+						"subType" : [{
+										"name": "Consumer Discretionary",
+										"percentage": 6.5
+									},
+									{
+										"name": "Consumer Staples",
+										"percentage": 9.0
+									},
+									{
+										"name": "Energy",
+										"percentage": 6.9
+									},
+									{
+										"name": "Financials",
+										"percentage": 14.5
+									},
+									{
+										"name": "Health Care",
+										"percentage": 6.9
+									},
+									{
+										"name": "Industrials",
+										"percentage": 9.7
+									},
+									{
+										"name": "Information Technology",
+										"percentage": 12.9
+									},
+									{
+										"name": "Materials",
+										"percentage": 4.8
+									},
+									{
+										"name": "Real Estate",
+										"percentage": 1.9
+									},
+									{
+										"name": "Telecommunication Services",
+										"percentage": 3.3
+									},
+									{
+										"name": "Utilities",
+										"percentage": 0.8
+									},
+									{
+										"name": "Other - ETFs",
+										"percentage": 12.5
+									}]
+					},
+					{
+						"type" : "FIXED INCOME",
+						"percentage" : 0,
+						"colour": "#F47E20",
+						"subType" : []
+					},
+					{
+						"type" : "CASH AND SHORT TERM SECURITIES",
+						"percentage" : 10.4,
+						"colour": "#7C4496",
+						"subType" : []
+					}],
+	"geographicChart":[
+					{
+						"type": "geographic",
+						"percentage" : 100.0,
+						"colour": "#ED5A36",
+						"subType": [
+									{
+										"name": "United States",
+										"percentage": 48.5
+									},
+									{
+										"name": "Canada",
+										"percentage": 13.7
+									},
+									{
+										"name": "Japan",
+										"percentage": 12.6
+									},
+									{
+										"name": "United Kingdom",
+										"percentage": 3.9
+									},
+									{
+										"name": "Germany",
+										"percentage": 2.8
+									},
+									{
+										"name": "France",
+										"percentage": 2.4
+									},
+									{
+										"name": "South Korea",
+										"percentage": 2.3
+									},
+									{
+										"name": "China",
+										"percentage": 2.2
+									},
+									{
+										"name": "Switzerland",
+										"percentage": 1.8
+									},
+									{
+										"name": "Other",
+										"percentage": 9.6
+									}]
+					}]
+
+}

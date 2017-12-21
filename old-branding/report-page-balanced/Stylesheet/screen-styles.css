@@ -1,0 +1,425 @@
+@media screen
+{
+    .main-header .header-line {
+		display:inline;
+	}
+
+	.main-header .header-line .header-line-yellow {
+		float:left;
+		padding-top:15px;
+		width:5%;
+    	border-bottom: 10px solid #F1B820;
+    }
+    .main-header .header-line .header-line-blue {
+    	float:left;
+    	padding-top:15px;
+		width:40%;
+    	border-bottom: 10px solid #15289C;
+    }
+    .main-header .header-line .header-line-grey {
+    	float:left;
+    	padding-top:15px;
+		width:55%;
+    	border-bottom: 10px solid #848690;
+    }
+
+    .main-header .logo img {
+    	width:200px;
+    	margin-left: 6%;
+    }
+    .header {
+    	display: none;
+    }
+
+    .page {
+        margin-left:10%;
+        display:inline-block;
+        margin-top: 50px;
+        width:1000px;
+    }
+    .report-name1 {
+        color: #0b2e66;
+        margin-bottom: 0;
+    }
+
+    .report-name2 {
+        color: #ffc323;
+        font-weight: lighter;
+        margin-top: 5px
+    }
+
+    .for-whom {
+        margin-top:60px;
+        height: 120px;
+    }
+
+    .for-whom, .by-whom p{
+        color: #1489c9;
+    }
+
+    .by-whom {
+        height: 120px;
+    }
+
+    #user-name, #advisor-name, #address1, #address2, #address3, #firmName, #phone {
+        color:black;
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+    .title {
+        color: #0b2e66;
+        font-size: 20px;
+    }
+
+    .sub-title {
+        color:#1489c9;
+    }
+
+    .statement .check-box {
+        height: 14px;
+        width: 14px;
+        border: 1px solid #1489c9;
+        float:left;
+        margin-right: 10px;
+        line-height: 14px;
+    }
+
+    .type-select {
+        margin-left: 20px;
+        margin-top: 3px;
+    }
+
+    .element-intro {
+        font-size: 20px;
+        color: #0b2e66;
+    }
+
+    .infographic-block {
+        width:31%;
+        float: left;
+        margin: 10px;
+    }
+
+    .infographic-block p {
+        margin-left:0;
+    }
+
+    .infographic-block br {
+        display: none;
+    }
+
+    .first-info-block {
+        margin-left:0;
+    }
+
+    .first-info-block .item {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .first-info-block .item-number {
+        font-size: 14px;
+        float:left;
+        height:20px;
+        width:20px;
+        line-height:20px;
+        text-align: center;
+        color: white;
+        margin-bottom: 50px;
+        margin-right:10px;
+    }
+
+    .item-number-one {
+        background-color: #848690;
+    }
+
+    .item-number-two {
+        background-color: #F1B820;
+    }
+
+    .item-number-three {
+        background-color: #15289C;
+    }
+
+    .pie-chart-img {
+        max-width:50%;
+        height:auto;
+        margin-left:25%;
+    }
+
+    .global-img {
+        max-width:80%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .flow-chart-img {
+        max-width:80%; 
+    }
+
+    .second-info-block {
+        border-left: 1px solid #F1B820;
+        border-right: 1px solid #F1B820;
+    }
+
+    .second-info-block p {
+        margin-left: 20px;
+    }
+
+    .second-info-block h3, p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .second-info-block img {
+        margin-left: 30px;
+    }
+
+    .third-info-block p {
+        margin-right: 0px;
+    }
+
+    .third-info-block img {
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    .disclaimer p,h5 {
+        color: #b0b1b2;
+        font-size: 11px;
+        margin-left:0px;
+    }
+
+    .advisor-comment h3 {
+        color: #0b2e66;
+        margin-bottom: 0px;
+    }
+
+    .comment-block {
+        border: 1px solid #0b2e66;
+        height: 100px;
+        width: 100%;
+        margin-top:5px;
+    }
+
+    .comment-disclaimer {
+        margin-top: 10px;
+        color: #b0b1b2;
+        font-size: 11px;
+    }
+
+    .acceptance h4 {
+        color: #1489c9;
+        margin-bottom: 5px;
+        margin-top: 35px;
+    }
+
+    .acceptance p {
+        margin-left: 0;
+        margin-top:5px;
+        ;
+    }
+
+    .accepted-by h4{
+            color: #358cff;
+    }
+
+    .disclaimer p,h5 {
+        color: #b0b1b2;
+        font-size: 11px;
+        margin-left:0px;
+    }
+
+    .empty-line {
+        font-size:20px;
+        height: 30px;
+        line-height:30px;
+        border-bottom: 1px solid black;
+    }
+
+    .empty-line-date {
+        font-size:20px;
+        height: 30px;
+        line-height:30px;
+        border-bottom: 1px solid black;
+    }
+
+    .print-name {
+        margin-right:10px;
+        width: 42%;
+        float:left;
+    }
+
+    .sign-name {
+        margin-right:10px;
+        width: 42%;
+        float:left;
+    }
+
+    .date {
+        width: 10%;
+        float:left;
+    }
+
+    .data-section {
+        margin-top: 25px;
+    }
+
+    .equity-title {
+        font-size: 25px;
+    }
+
+    .geographic-title {
+        font-size: 25px;
+    }
+
+    .pie-chart-section-1 {
+        float:left;
+        width:40%;
+    }
+
+    .pie-chart-section-2 {
+        float:left;
+        width:40%;
+    }
+
+    #table-section-1 {
+        float:left;
+        width:40%;
+        margin-left:15%;
+    }
+
+    #table-section-2 {
+        float:left;
+        width:40%;
+        margin-left:15%;
+    }
+
+    
+
+    #pie-chart-0 {
+        height: 60% !important;
+        width: 60% !important;
+        margin-left: 15%;
+    }
+
+    #pie-chart-1 {
+        height: 60% !important;
+        width: 60% !important;
+        margin-left: 15%;
+    }
+
+    #pie-chart-2 {
+        height: 60% !important;
+        width: 60% !important;
+        margin-left: 15%;
+    }
+
+    .income-div {
+        border-collapse: collapse;
+    }
+
+    .income-div {
+        width: 350px;
+    }
+    .income-title {
+        color: white;
+        height:30px;
+    }
+
+    .income-fund {
+        background-color: #f4f5f5;
+        height:25px;
+    }
+
+    .fund-percentage {
+        border-right:10px solid #f4f5f5;
+    }
+    .income-percentage {
+        width:70px;
+        text-align: right;
+    }
+
+    .fund-percentage {
+        text-align: right;
+    }
+
+    #report-protofolio-type {
+        font-size:30px;
+        text-align: center;
+    }
+
+    .left-section {
+        float:left;
+        width:40%;
+        margin-left:10%;
+    }
+    .right-section {
+        float: left;
+        width:50%;
+    }
+
+    .up-section {
+        margin-top:50px;
+        height:700px;
+    }
+
+    .equity-section {
+        height: 550px;
+        margin-left:10%;
+    }
+
+    .geographic-section {
+        height:350px;
+        margin-left:10%;
+    }
+
+    .key-benefits {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #dbdfdf; 
+        width:90%;
+    }
+    #table-section-0 {
+        background-color: #f4f5f5;
+        width:350px;
+        margin-left: 20%;
+    }
+
+    #pie-chart-holder-0 {
+        margin-top:25px;
+    }
+
+    .country {
+        background-color: #f4f5f5;
+        height:25px;
+    }
+    .color-box {
+        width: 12px;
+        height: 12px;
+        float:left;
+        margin-left:5px;
+    }
+
+    .country-percentage {
+        text-align: right;
+        border-right:10px solid #f4f5f5;
+    }
+
+    .print-button {
+        font-size: 30px;
+        float:right;
+        margin-right:10%;
+        margin-top:15px;
+        background-color: #7C4496;
+        width:120px;
+        height:40px;
+        color:white;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 10px;
+    }
+
+
+}

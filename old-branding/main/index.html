@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title></title>
+</head>
+<body>
+
+	
+	
+	<img id="banner" src="banner.png">
+
+	<div id="frame">
+		<ul id="queue"></ul>
+	</div>
+
+	<div id="footer"></div>
+
+	<!-- create pop-up window for report form  -->
+	<div id="report-window" style="display: none">
+		<div id="report-title">
+			<h4> PRINT REPORT</h4>
+			<p> To customize your report, please complete the fields below:</p>
+		</div>
+		<div class="report-row" > 
+			<div class="report-column">
+				Client Name: <br>
+				<input id="client-name" type="text"> <br>
+				Client Address 1: <br>
+				<input id="address1" type="text"> <br>
+				Client Address 2: <br>
+				<input id="address2" type="text"> <br>
+				Client Address 3: <br>
+				<input id="address3" type="text"> <br>
+			</div>
+
+			<div class="report-column">
+				Advisor Name: <br>
+				<input id="advisor-name" type="text"> <br>
+				Firm Name: <br>
+				<input id="firm-name" type="text"> <br>
+				Advisor Phone Number: <br>
+				<input id="phone" type="text"> <br>
+				Date: <br>
+				<input id="date" type="date"> <br>
+			</div>
+		</div>
+		<form id="classNames">
+		    <input type="radio" name="className" value="Non-Corporate" id="Non-Corporate" checked="checked">Non-Corporate Class<br>
+		    <input type="radio" name="className" value="Corporate" id="Corporate">Corporate Class <br>
+		</form>
+        <button id="print">PRINT REPORT</button>
+        <button class="close">CLOSE</button>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js">//include ChartJS library</script>
+	<script type="text/javascript" src="function.js"></script>
+	<script type="text/javascript" src="data.json"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</body>
+</html>

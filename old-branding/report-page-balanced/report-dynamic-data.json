@@ -1,0 +1,253 @@
+{	
+	"reportProfolioTitle": "AGF ELEMENTS BALANCED PORTFOLIO/CLASS HOLDINGS",
+	"benefits": ["a target asset mix of approximately 60% equity exposure offers you capital appreciation, while the approximately 40% fixed income portion offers stability", 
+				"the Portfolio is diversified by asset class, region and management style, with exposure to core holdings and specialty funds",
+				"the Portfolio is rebalanced quarterly to ensure you are always positioned to capitalize on current market trends"],
+	"date": "APRIL 24, 2017",
+	"fundsChart" : [{
+						"type" : "DOMESTIC FIXED INCOME",
+						"percentage" : 7,
+						"colour": "#ED5A36",
+						"subType" : [{
+											"name": "AGF Fixed Income Plus Fund",
+											"percentage": 7
+										}]
+					},
+					{
+						"type" : "FOREIGN FIXED INCOME",
+						"percentage" : 27,
+						"colour": "#F47E20",
+						"subType" : [{
+											"name": "AGF Global Bond Fund",
+											"percentage": 17
+										},
+										{
+											"name": "AGF Total Return Bond Fund",
+											"percentage": 5
+										},
+										{
+											"name": "AGF High Yield Bond Fund",
+											"percentage": 3
+										},
+										{
+											"name": "AGF Emerging Markets Bond Fund",
+											"superscript": 1,
+											"percentage": 2
+										}]
+					},
+					{
+						"type" : "DOMESTIC EQUITIES",
+						"percentage" : 22,
+						"colour": "#7C4496",
+						"subType" : [{
+											"name": "AGF Dividend Income Fund",
+											"percentage": 10
+										},
+										{
+											"name": "AGF Canadian Stock Fund",
+											"percentage": 8
+										},
+										{
+											"name": "AGF Canadian Small Cap Fund",
+											"percentage": 2
+										},
+										{
+											"name": "QuantShares Enhanced Core Canadian Equity ETF",
+											"superscript": 3,
+											"percentage": 2
+										}]
+					},
+					{
+						"type" : "FOREIGN EQUITIES",
+						"percentage" : 34,
+						"colour": "#D02259",
+						"subType" : [{
+											"name": "AGF Global Equity Fund",
+											"superscript": 2,
+											"percentage": 12
+										},
+										{
+											"name": "AGF Global Dividend Fund",
+											"percentage": 5
+										},
+										{
+											"name": "AGF American Growth Fund",
+											"percentage": 4
+										},
+										{
+											"name": "AGF U.S. Risk Managed Fund",
+											"percentage": 2
+										},
+										{
+											"name": "AGF EAFE Equity Fund",
+											"percentage": 2
+										},
+										{
+											"name": "AGF European Equity Fund",
+											"percentage": 2
+										},
+										{
+											"name": "AGF Emerging Markets Fund",
+											"percentage": 2
+										},
+										{
+											"name": "AGF Global Resources Class/Fund",
+											"percentage": 2
+										},
+										{
+											"name": "AGF Asian Growth Class",
+											"percentage": 1
+										},
+										{
+											"name": "QuantShares Enhanced Core U.S. Equity ETF",
+											"superscript": 3,
+											"percentage": 1
+										},
+										{
+											"name": "QuantShares Enhanced Core International ETF",
+											"superscript": 3,
+											"percentage": 1
+										}]
+					},
+					{
+						"type" : "TACTICAL",
+						"percentage" : 10,
+						"colour": "#FFB819",
+						"subType" : [{
+											"name": "AGF Tactical Fund",
+											"percentage": 10
+									    }]
+					}],
+	"footNote" : [ "On April 10, 2012, unitholders approved a change in the investment objective providing the Fund with greater flexibility to invest in high-yield bonds issued or guaranteed by corporations around the world.",
+					"On April 18, 2008, the Fund changed its investment objective to provide long-term capital growth and invest primarily in shares of companies around the world. The Fund may invest up to 25% of its assets in companies in emerging markets.",
+					"QuantShares are ETFs offered by AGF Investments Inc. and managed by Highstreet Asset Management. QuantShares ETFs are listed on the Toronto Stock Exchange and may only be bought and sold through licensed dealers."],
+	"equityChart": [
+					{
+						"type" : "EQUITY",
+						"percentage" : 60.2,
+						"colour": "#ED5A36",
+						"subType" : [{
+										"name": "Consumer Discretionary",
+										"percentage": 4.3
+									},
+									{
+										"name": "Consumer Staples",
+										"percentage": 5.2
+									},
+									{
+										"name": "Energy",
+										"percentage": 7.0
+									},
+									{
+										"name": "Financials",
+										"percentage": 11.4
+									},
+									{
+										"name": "Health Care",
+										"percentage": 2.6
+									},
+									{
+										"name": "Industrials",
+										"percentage": 6.7
+									},
+									{
+										"name": "Information Technology",
+										"percentage": 6.2
+									},
+									{
+										"name": "Materials",
+										"percentage": 3.8
+									},
+									{
+										"name": "Real Estate",
+										"percentage": 1.6
+									},
+									{
+										"name": "Telecommunication Services",
+										"percentage": 2.4
+									},
+									{
+										"name": "Utilities",
+										"percentage": 0.7
+									},
+									{
+										"name": "Other - ETFs",
+										"percentage": 7.2
+									}]
+					},
+					{
+						"type" : "FIXED INCOME",
+						"percentage" : 32.0,
+						"colour": "#F47E20",
+						"subType" : [{
+										"name": "Corporate",
+										"percentage": 12.7
+									},
+									{
+										"name": "Government",
+										"percentage": 19.0
+									},
+									{
+										"name": "Collateralized",
+										"percentage": 0.2
+									},
+									{
+										"name": "Other",
+										"percentage": 0.1
+									}]
+					},
+					{
+						"type" : "CASH AND SHORT TERM SECURITIES",
+						"percentage" : 7.8,
+						"colour": "#7C4496",
+						"subType" : []
+					}],
+	"geographicChart":[
+					{
+						"type": "geographic",
+						"percentage" : 100.0,
+						"colour": "#ED5A36",
+						"subType": [
+									{
+										"name": "United States",
+										"percentage": 35.0
+									},
+									{
+										"name": "Canada",
+										"percentage": 30.0
+									},
+									{
+										"name": "Japan",
+										"percentage": 8.0
+									},
+									{
+										"name": "United Kingdom",
+										"percentage": 3.6
+									},
+									{
+										"name": "Germany",
+										"percentage": 1.8
+									},
+									{
+										"name": "Supranational",
+										"percentage": 1.5
+									},
+									{
+										"name": "France",
+										"percentage": 1.4
+									},
+									{
+										"name": "South Korea",
+										"percentage": 1.3
+									},
+									{
+										"name": "Mexico",
+										"percentage": 1.3
+									},
+									{
+										"name": "Other",
+										"percentage": 16.0
+									}]
+					}]
+
+}
